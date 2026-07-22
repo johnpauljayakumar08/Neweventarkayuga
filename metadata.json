@@ -1,0 +1,6 @@
+{
+  "name": "Arkayuga Events",
+  "description": "Premier Event Management & Luxury Celebration Planners website featuring modern layout, interactive event schedule, quote calculator, image gallery, and service packages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

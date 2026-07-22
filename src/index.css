@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #5d1b22;
+  --color-primary-light: #7a242c;
+  --color-primary-dark: #4a151b;
+  --color-secondary: #9b7855;
+  --color-secondary-light: #b08d6a;
+  --color-secondary-dark: #7f6245;
+  --color-gold: #c4a161;
+  --color-cream: #faf7f2;
+  --color-dark: #1a1012;
+  
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+/* Custom scrollbar and swiper overrides */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #faf7f2;
+}
+::-webkit-scrollbar-thumb {
+  background: #9b7855;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5d1b22;
+}
+
+/* Swiper custom styling */
+.swiper-pagination-bullet-active {
+  background-color: #5d1b22 !important;
+  width: 28px !important;
+  border-radius: 9999px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #5d1b22 !important;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #5d1b22 !important;
+  color: #ffffff !important;
+}
+
